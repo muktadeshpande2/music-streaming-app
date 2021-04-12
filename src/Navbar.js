@@ -10,6 +10,9 @@ function Navbar() {
                 <Link to='/signin'>
                 <button type="button" className="button" ><b>Sign In</b></button>  
                 </Link>
+                <Link to='/signup'>
+                <button type="button" className="button" ><b>Sign Up</b></button>  
+                </Link>
             </nav>
         
     )
