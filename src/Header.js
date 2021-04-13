@@ -5,7 +5,7 @@ function Header() {
     return(
         <div>
             <header className="header">
-                {/* here goes the eimg tag for the logo*/}
+                
                 <p>Melody Marvels or Soul Sessions</p>
             </header>
         </div>
@@ -13,4 +13,4 @@ function Header() {
     )
 }
 
-export default Header;
+export default Header; 
