@@ -3,51 +3,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 
-
-/*function SignIn(){
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
-
-    useEffect(() => {
-        console.log(email);
-    })
-    
-    const handleEmailChange = (event) => {
-       setEmail(event.target.value);
-       console.log(email);
-    }
-         
-       const handlePasswordChange = (event) => 
-       setPassword(event.target.value);
-
-    
-        return(
-            <main>
-                <form>
-                    <input 
-                        type="text"
-                        placeholder="Email"
-                        value={email}
-                        onChange={handleEmailChange}
-                    />
-
-
-                    <input 
-                        type="text"
-                        placeholder="Password"
-                        value={password}
-                        onChange={handlePasswordChange}
-                    />
-
-                </form>
-            </main>
-        )
-    
-    
-}
-
-export default SignIn; */
-
 const useStyles = makeStyles((theme) => ({
     root: {
       '& > *': {
@@ -91,3 +46,6 @@ const useStyles = makeStyles((theme) => ({
   }
 
   export default SignIn;
+
+
+  
