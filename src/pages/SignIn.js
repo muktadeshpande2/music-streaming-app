@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
         <TextField id="outlined-basic" label="Password" variant="outlined" onChange={handlePasswordChange} />
         <br />
         <Button variant="contained" color="secondary">
-        Submit
+        Sign In
       </Button>
       </form>
     );

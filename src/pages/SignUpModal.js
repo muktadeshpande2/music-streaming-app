@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import Button from '@material-ui/core/Button';
-import SignIn from "./SignIn";
+import SignUp from "./SignUp";
 
 function rand() {
   return Math.round(Math.random() * 20) - 10;
@@ -46,7 +46,7 @@ export default function SimpleModal() {
 
   const body = (
     <div style={modalStyle} className={classes.paper}>
-        <SignIn />
+        <SignUp />
     </div>
   );
 
@@ -55,7 +55,7 @@ export default function SimpleModal() {
       {/*<button type="button" color="secondary" onClick={handleOpen}>
         Open Modal
   </button> */}
-      <Button color="inherit" onClick={handleOpen}>Sign In</Button>  
+      <Button color="inherit" onClick={handleOpen}>Sign Up</Button>  
       <Modal
         open={open}
         onClose={handleClose}
