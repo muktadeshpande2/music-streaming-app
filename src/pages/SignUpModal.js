@@ -22,7 +22,7 @@ function getModalStyle() {
 const useStyles = makeStyles((theme) => ({
   paper: {
     position: 'absolute',
-    width: 400,
+    width: 500,
     backgroundColor: theme.palette.background.paper,
     border: '2px solid #000',
     boxShadow: theme.shadows[5],
@@ -46,6 +46,7 @@ export default function SimpleModal() {
 
   const body = (
     <div style={modalStyle} className={classes.paper}>
+        <h2 id="simple-modal-title"><b>Sign Up</b></h2>
         <SignUp />
     </div>
   );
