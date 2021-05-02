@@ -9,6 +9,7 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import SignInModal from './pages/SignInModal';
 import SignUpModal from './pages/SignUpModal';
+import DeveloperProfile from './pages/DeveloperProfile';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -45,6 +46,7 @@ export default function ButtonAppBar() {
             </Link>*/}
             <SignInModal /> 
             <SignUpModal />
+            <DeveloperProfile />
             
         </Toolbar>
       </AppBar>
