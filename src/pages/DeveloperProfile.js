@@ -2,6 +2,8 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Modal from '@material-ui/core/Modal';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 function rand() {
   return Math.round(Math.random() * 20) - 10;
@@ -55,6 +57,8 @@ export default function SimpleModal() {
         <p>
             If you have a great idea and want to share it , you may drop a message at LinkedIn and Github
         </p>
+        <GitHubIcon fontSize="large"/>
+        <LinkedInIcon fontSize="large"/>
       
     </div>
   );
