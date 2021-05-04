@@ -47,20 +47,26 @@ export default function SimpleModal() {
 
   const body = (
     <div style={modalStyle} className={classes.paper}>
-        <h2 id="simple-modal-title">About the Developer</h2>
-        <p id="simple-modal-description">
-            Hi! I am Mukta Deshpande. 
-        </p>
-        <p>
-          Apart from making cool projects , I love to read , write and daydream ;) 
-        </p>
-        <p>
-            If you have a great idea and want to share it , you may drop a message at LinkedIn and Github
-        </p>
-        <GitHubIcon fontSize="large"/>
-        <LinkedInIcon fontSize="large"/>
+        <div>
+            <h2 id="simple-modal-title">About the Developer</h2>
+            <p id="simple-modal-description">
+                Hi! I am Mukta Deshpande. 
+            </p>
+            <p>
+                Apart from making cool projects , I love to read , write and daydream ;) 
+            </p>
+            <p>
+                If you have a great idea and want to share it , you may drop a message at LinkedIn and Github
+            </p>
       
-    </div>
+        </div>
+        <div alignItems="center">
+          <GitHubIcon fontSize="large" />
+          <LinkedInIcon fontSize="large" />
+        </div>
+
+  </div>
+    
   );
 
   return (
