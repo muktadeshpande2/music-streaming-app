@@ -66,7 +66,8 @@ export default function SimpleModal() {
       
         </div>
         <div alignItems="center">
-          <GitHubIcon fontSize="large" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <GitHubIcon fontSize="large" />&nbsp;&nbsp;&nbsp;&nbsp;
           <LinkedInIcon fontSize="large" />
         </div>
 
