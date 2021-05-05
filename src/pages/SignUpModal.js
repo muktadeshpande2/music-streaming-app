@@ -48,7 +48,7 @@ export default function SimpleModal() {
   const body = (
     <div style={modalStyle} className={classes.paper}>
         <h2 id="simple-modal-title">
-            <b>Sign Up</b>
+            <b>Sign Up</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button type="button" color="primary" onClick={handleClose}><CloseIcon /></button>
         </h2>
         <SignUp />

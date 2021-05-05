@@ -49,8 +49,11 @@ export default function SimpleModal() {
   const body = (
     <div style={modalStyle} className={classes.paper}>
         <div>
-            <h2 id="simple-modal-title">About the Developer</h2>
-            <button type="button" color="primary" onClick={handleClose}><CloseIcon /></button>
+            <h2 id="simple-modal-title">
+                <b>About the Developer</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="button" color="primary" onClick={handleClose}><CloseIcon /></button>
+            </h2>
+            
             <p id="simple-modal-description">
                 Hi! I am Mukta Deshpande. 
             </p>
