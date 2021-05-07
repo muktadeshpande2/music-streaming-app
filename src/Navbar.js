@@ -35,7 +35,7 @@ export default function ButtonAppBar() {
           <Typography variant="h6" className={classes.title}>
             <b>Soul Sessions</b>
           </Typography>
-          <Link to='/home'>
+            <Link to='/home'>
                 <Button color="inherit">Home</Button>  
             </Link>
             {/* <Link to='/signin'>

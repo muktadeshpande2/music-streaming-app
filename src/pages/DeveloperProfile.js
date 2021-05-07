@@ -65,10 +65,14 @@ export default function SimpleModal() {
             </p>
       
         </div>
-        <div alignItems="center">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <GitHubIcon fontSize="large" />&nbsp;&nbsp;&nbsp;&nbsp;
-          <LinkedInIcon fontSize="large" />
+        <div className="icons">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <Button href="https://github.com/muktadeshpande2" >
+              <GitHubIcon fontSize="large"/>
+          </Button>
+          <Button href="https://www.linkedin.com/in/mukta-deshpande-b66579181/" >
+              <LinkedInIcon fontSize="large" />
+          </Button>
         </div>
 
   </div>

@@ -1,64 +1,24 @@
-.header {
-    height: 50px;
-    display:flex;
-    align-items: center;
-    background: #000000; 
-    font-family: VT323, monospace;
-    color: whitesmoke;
-    font-size: 50px;
-    text-align:center;
-}
-
-.navbar {
-    height: 50px;
-    text-align:right;
-    background: #ce1e93; 
-}
-
 a:link {
     color:white;
     background-color: transparent;
     text-decoration: none;
   }
-a:visited {
-    color: pink;
+ a:visited {
+    color: white;
     background-color: transparent;
     text-decoration: none;
   }
 a:hover {
     color:white;
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
+    
   }
 a:active {
     color:pink;
     background-color: transparent;
-    text-decoration: underline;
-  }
-
-  .footer {
-    height:50px;
-    align-items:center;
-    background: #000000; 
-    font-family: VT323, monospace;
-    color: whitesmoke;
-    font-size: 20px;
-    text-align:center;
-    vertical-align:center;
-  }
-
-  .button {
-    background-color: #ce1e93;;
-    color: white;
-    padding: 15px 32px;
-  }
-
-  .button:hover {
-    background-color: white;
-    color: #ce1e93;
-    border: 2px solid #ce1e93;;
-    padding: 15px 32px;
-  }
+    text-decoration: none;
+  } 
 
   
   
