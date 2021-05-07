@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+//import {Link} from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -10,7 +10,6 @@ import MenuIcon from '@material-ui/icons/Menu';
 import SignInModal from './pages/SignInModal';
 import SignUpModal from './pages/SignUpModal';
 import DeveloperProfile from './pages/DeveloperProfile';
-import  './style.css';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -38,9 +37,9 @@ export default function ButtonAppBar() {
           <Typography variant="h6" className={classes.title}>
             <b>Soul Sessions</b>
           </Typography>
-            <Link to='/home'>
-                <Button color="inherit" className="home">Home</Button>  
-            </Link>
+            {/*<Link to='/home'>*/ }
+                <Button color="inherit" className="home" href="./Home">Home</Button>  
+            {/*</Link> */}
             <SignInModal /> 
             <SignUpModal />
             <DeveloperProfile />

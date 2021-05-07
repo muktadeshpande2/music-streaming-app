@@ -81,9 +81,6 @@ export default function SimpleModal() {
 
   return (
     <div>
-      {/* <button type="button" onClick={handleOpen}>
-        Open Modal
-  </button> */ }
         <Button color="inherit" onClick={handleOpen}>About the Developer</Button>
         <Modal
             open={open}

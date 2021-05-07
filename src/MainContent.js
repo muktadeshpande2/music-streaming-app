@@ -1,16 +1,3 @@
-/* import React from "react";
-import "./style.css";
-
-function MainContent() {
-    return(
-        <div>
-            <h3>Music App</h3>
-        </div>
-    )
-}
-
-export default MainContent; */
-
 import React from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
