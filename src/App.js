@@ -9,7 +9,6 @@ const  App = () => {
             {/*<Route path="/signup" component={SignUp} />  */}{/*Path definition */}
             {/*<Route path="/signin" component={SignIn} /> */} {/*Path definition */}
             <Route path="/home" component={Home} />     {/*Path definition */}
-            {/*<Route path="/modal" component={Modal}/> */}
             <Redirect from="/" to="/home"/>
             </Switch>
         </BrowserRouter>

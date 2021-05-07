@@ -10,6 +10,9 @@ import MenuIcon from '@material-ui/icons/Menu';
 import SignInModal from './pages/SignInModal';
 import SignUpModal from './pages/SignUpModal';
 import DeveloperProfile from './pages/DeveloperProfile';
+import  './style.css';
+
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -36,14 +39,8 @@ export default function ButtonAppBar() {
             <b>Soul Sessions</b>
           </Typography>
             <Link to='/home'>
-                <Button color="inherit">Home</Button>  
+                <Button color="inherit" className="home">Home</Button>  
             </Link>
-            {/* <Link to='/signin'>
-                <Button color="inherit">Sign In</Button>
-            </Link>
-            <Link to='/signup'>
-                <Button color="inherit">Sign Up</Button>  
-            </Link>*/}
             <SignInModal /> 
             <SignUpModal />
             <DeveloperProfile />
