@@ -1,7 +1,8 @@
 import React from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container';
+import Container from '@material-ui/core/Container'; 
+import Navbar from "./Navbar";
 
 
 
@@ -12,8 +13,9 @@ export default function SimpleContainer() {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="xl">
-        <Typography component="div" style={{ backgroundColor: '#ffffff', height: '100vh' }} />
+        <Navbar />
+        <Typography component="div" style={{ backgroundColor: '#000000', height: '100vh' }} />
       </Container>
-    </React.Fragment>
+    </React.Fragment> 
   );
 }
